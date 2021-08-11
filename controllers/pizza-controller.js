@@ -26,7 +26,7 @@ const pizzaController = {
             .catch(err => {
                 console.log(err);
                 res.status(400).json(err);
-            })
+            });
     },
 
     //create a new Pizza
@@ -49,7 +49,7 @@ const pizzaController = {
             .catch(err => {
                 console.log(err);
                 res.status(400).json(err);
-            })
+            });
     },
 
     //delete a pizza by id
@@ -65,7 +65,7 @@ const pizzaController = {
             .catch(err => {
                 console.log(err);
                 res.status(400).json(err);
-            })
+            });
     }
 };
 
